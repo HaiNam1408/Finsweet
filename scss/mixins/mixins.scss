@@ -1,0 +1,25 @@
+@mixin displayFlexCenter($alige: center, $justi: center, $gap: 0) {
+    display: flex;
+    justify-content: $alige;
+    align-items: $justi;
+    gap: $gap;
+}
+
+@mixin button($bgColor: $white, $color: $dark) {
+    padding: 16px 48px;
+    background-color: $bgColor;
+    color: $color;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    cursor: pointer;
+}
+
+@mixin positionAbsolute($top: auto, $right: auto, $bottom: auto, $left: auto) {
+    position: absolute;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+}

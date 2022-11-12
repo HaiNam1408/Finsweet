@@ -1,0 +1,466 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  position: fixed;
+  inset: 0 0;
+  z-index: 100;
+  background: #232536;
+  height: 80px;
+  padding: 0 80px 0 83px;
+  color: #fff;
+}
+.header__logo {
+  font-size: 36px;
+  flex: 1;
+  font-weight: 700;
+  line-height: 80px;
+}
+.header__nav {
+  margin-right: 20px;
+  height: 28px;
+}
+.header__link {
+  color: #fff;
+  line-height: 28px;
+  font-size: 16px;
+  text-decoration: none;
+  margin: 0 12px;
+}
+.header__btn {
+  padding: 16px 48px;
+  background-color: #fff;
+  color: #232536;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.introduce {
+  margin-top: 80px;
+  width: 100%;
+  height: 720px;
+  background: url(../images/Hero/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png) no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  position: relative;
+  color: #fff;
+}
+.introduce::after {
+  content: "";
+  position: absolute;
+  inset: 0 0;
+  background-image: radial-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+.introduce__wrapper {
+  position: absolute;
+  inset: 128px 0 0 81px;
+  width: 804px;
+  height: 400px;
+  z-index: 1;
+}
+.introduce__slogan {
+  height: 128px;
+  margin: 24px 0;
+  letter-spacing: -2px;
+}
+.introduce__description {
+  margin: 16px 0 48px;
+  width: 599px;
+}
+.introduce__detail {
+  line-height: 28px;
+}
+.introduce__button {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  color: #232536;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.container {
+  padding: 130px 80px 128px;
+}
+
+.featured {
+  display: flex;
+}
+.featured__heading {
+  margin-bottom: 32px;
+}
+.featured__post {
+  width: 51%;
+  height: 724px;
+}
+.featured__post--wrapper {
+  border: 1px solid #6D6E76;
+  padding: 32px;
+}
+.featured__post--name-date {
+  margin: 32px 0 16px 0;
+}
+.featured__post--description {
+  margin: 16px 0 32px 0;
+}
+.featured__button {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  color: #232536;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  width: 204px;
+  height: 56px;
+}
+.featured__all-post {
+  margin-left: 32px;
+  flex: 1;
+  position: relative;
+}
+.featured__all-post--view-all {
+  position: absolute;
+  top: 11px;
+  right: 2px;
+  bottom: auto;
+  left: auto;
+}
+.featured__all-post--item {
+  height: 181px;
+  width: 100%;
+  padding: 32px 116px 25px 32px;
+}
+.featured__all-post--item:hover {
+  background-color: #FBF6EA;
+  transition: all 0.3s ease;
+}
+.featured__all-post--heading {
+  width: 369px;
+  height: 96px;
+  margin-top: 8px;
+}
+
+.about-us {
+  margin: 128px 0;
+}
+.about-us__pattern {
+  display: flex;
+  justify-content: end;
+  height: 23px;
+}
+.about-us__pattern--purple {
+  width: 24%;
+  background-color: #592EA9;
+}
+.about-us__pattern--yellow {
+  width: 60%;
+  background-color: #FFD050;
+}
+.about-us__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: space-between;
+  gap: 82px;
+  justify-content: space-between;
+  padding: 96px 80px;
+  background-color: #F4F0F8;
+}
+.about-us__about-us {
+  flex: 1;
+}
+.about-us__about-us--more {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: 16px;
+}
+.about-us__about-us--title {
+  margin: 24px 0 16px 0;
+}
+.about-us__mission {
+  flex: 1;
+}
+.about-us__mission--title {
+  margin: 24px 0 16px 0;
+  width: 481px;
+}
+.about-us__mission--description {
+  width: 516px;
+}
+
+.catagory__wrapper {
+  display: flex;
+  justify-content: auto;
+  align-items: space-between;
+  gap: 32px;
+  margin-top: 48px;
+}
+.catagory__item {
+  border: 1px solid #6D6E76;
+  width: 25%;
+  padding: 32px;
+}
+.catagory__item:hover {
+  background-color: #FFD050;
+  transition: all 0.3s ease;
+}
+.catagory__item--icon {
+  width: 48px;
+  height: 48px;
+  background: #FBF6EA;
+  border-radius: 8px;
+}
+.catagory__item--title {
+  margin: 16px 0 4px 0;
+}
+
+.special {
+  background: url(../images/Special/close-up-photography-of-man-wearing-sunglasses-1212984.png) no-repeat;
+  background-size: 949px;
+  height: 705px;
+  position: relative;
+  margin: 128px 0;
+}
+.special__wrapper {
+  position: absolute;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: auto;
+  background: #fff;
+  width: 706px;
+  height: 584px;
+  padding: 80px;
+}
+.special__title {
+  margin: 24px 0 16px 0;
+}
+.special__button {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  color: #232536;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  margin-top: 32px;
+}
+
+.authors__wrapper {
+  display: flex;
+  justify-content: auto;
+  align-items: space-between;
+  gap: 32px;
+  margin-top: 48px;
+  flex-wrap: wrap;
+}
+.authors__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-direction: column;
+  background: #F4F4F4;
+  width: 22.3%;
+  padding: 40px 0;
+}
+.authors__item:hover {
+  background: #FBF6EA;
+  transition: all 0.3s ease;
+}
+.authors__name {
+  margin-top: 20px;
+}
+.authors__contacts {
+  display: flex;
+  justify-content: auto;
+  align-items: space-between;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.brand {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  height: 52px;
+  margin: 96px 0;
+}
+.brand__heading {
+  width: 136px;
+}
+.brand__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  width: 1015px;
+}
+
+.testimonial {
+  background: #FBF6EA;
+  padding: 80px 112px 74px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.testimonial__left {
+  width: 345px;
+}
+.testimonial__title {
+  margin: 12px 0 16px 0;
+}
+.testimonial__line {
+  width: 1px;
+  height: 320px;
+  background: #6D6E76;
+  margin: 0 96px 0 84px;
+}
+.testimonial__right {
+  flex: 1;
+}
+.testimonial__message {
+  width: 469px;
+  margin-bottom: 121px;
+}
+.testimonial__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.testimonial__user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.testimonial__control {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.testimonial__control button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  background: #fff;
+}
+.testimonial__control button:hover {
+  transform: scale(1.2);
+  background: #232536;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.testimonial__control button:hover img {
+  filter: invert(195%) sepia(176%) saturate(6849%) hue-rotate(-55deg) brightness(202%) contrast(250%);
+}
+.testimonial__arrow-right {
+  transform: rotate(180deg);
+}
+
+.join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  flex-direction: column;
+  margin: 128px 0;
+  text-align: center;
+}
+.join__heading {
+  width: 414px;
+}
+.join__title {
+  margin: 16px 0 32px 0;
+  width: 405px;
+}
+.join__button {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  color: #232536;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.footer {
+  padding: 56px 80px;
+  background-color: #232536;
+}
+.footer__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;
+  background: #232536;
+  height: 80px;
+  color: #fff;
+}
+.footer__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+  height: 256px;
+  background: #2E3040;
+  padding: 80px 64px;
+  margin: 54px 0 48px 0;
+}
+.footer__heading {
+  width: 562px;
+}
+.footer__input {
+  border: 1px solid #4C4C4C;
+  width: 323px;
+  height: 56px;
+  background: #2E3040;
+  padding-left: 24px;
+}
+.footer__button {
+  padding: 16px 48px;
+  background-color: #FFD050;
+  color: #232536;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  cursor: pointer;
+  margin-left: 24px;
+}
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0;
+}
+.footer__social-media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  filter: invert(1);
+  opacity: 0.7;
+}
+
+/*# sourceMappingURL=style.css.map */

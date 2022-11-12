@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+}
+
+.homepage {
+  font-family: "Sen", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.display {
+  font-size: 56px;
+  line-height: 64px;
+}
+
+.h1 {
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+}
+
+.h2 {
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+}
+
+.h3 {
+  font-size: 28px;
+  line-height: 36px;
+}
+
+.h4 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.h5 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.h6 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.body1 {
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+}
+
+.body2 {
+  font-size: 14px;
+  line-height: 20px;
+  color: #6D6E76;
+}
+
+.lable {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.cap1 {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.cap2 {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.cap3 {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.display,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  font-weight: 700;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-purple {
+  color: #592EA9;
+}
+
+.text-yellow {
+  color: #FFD050;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-black {
+  color: #232536;
+}
+
+/*# sourceMappingURL=base.css.map */
