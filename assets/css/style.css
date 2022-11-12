@@ -103,6 +103,9 @@
   border: 1px solid #6D6E76;
   padding: 32px;
 }
+.featured__post--image {
+  width: 100%;
+}
 .featured__post--name-date {
   margin: 32px 0 16px 0;
 }
@@ -211,6 +214,7 @@
 .catagory__item:hover {
   background-color: #FFD050;
   transition: all 0.3s ease;
+  border: none;
 }
 .catagory__item--icon {
   width: 48px;
@@ -428,7 +432,7 @@
   margin: 54px 0 48px 0;
 }
 .footer__heading {
-  width: 520px;
+  width: 562px;
 }
 .footer__input {
   border: 1px solid #4C4C4C;

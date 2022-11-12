@@ -41,7 +41,7 @@
     margin-top: 80px;
     width: 100%;
     height: 720px;
-    background: url(./assets/images/Hero/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png) no-repeat;
+    background: url(../images/Hero/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.png) no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     position: relative;
@@ -221,6 +221,7 @@
         &:hover{
             background-color: $yellow;
             transition: all .3s ease;
+            border: none;
         }
 
         &--icon{
@@ -237,7 +238,7 @@
 }
 
 .special{
-    background: url(./assets/images/Special/close-up-photography-of-man-wearing-sunglasses-1212984.png) no-repeat;
+    background: url(../images/Special/close-up-photography-of-man-wearing-sunglasses-1212984.png) no-repeat;
     background-size: 949px;
     height: 705px;
     position: relative;
