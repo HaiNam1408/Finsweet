@@ -14,6 +14,11 @@
     font-weight: 700;
     line-height: 24px;
     cursor: pointer;
+
+    &:hover{
+        background-color: darken($bgColor, 10);
+        transition: all .2s ease;
+    }
 }
 
 @mixin positionAbsolute($top: auto, $right: auto, $bottom: auto, $left: auto) {

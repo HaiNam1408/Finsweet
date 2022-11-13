@@ -38,6 +38,10 @@
   line-height: 24px;
   cursor: pointer;
 }
+.header__btn:hover {
+  background-color: #e6e6e6;
+  transition: all 0.2s ease;
+}
 
 .introduce {
   margin-top: 80px;
@@ -84,6 +88,10 @@
   line-height: 24px;
   cursor: pointer;
 }
+.introduce__button:hover {
+  background-color: #ffc21d;
+  transition: all 0.2s ease;
+}
 
 .container {
   padding: 130px 80px 128px;
@@ -123,6 +131,10 @@
   cursor: pointer;
   width: 204px;
   height: 56px;
+}
+.featured__button:hover {
+  background-color: #ffc21d;
+  transition: all 0.2s ease;
 }
 .featured__all-post {
   margin-left: 32px;
@@ -257,6 +269,10 @@
   line-height: 24px;
   cursor: pointer;
   margin-top: 32px;
+}
+.special__button:hover {
+  background-color: #ffc21d;
+  transition: all 0.2s ease;
 }
 
 .authors__wrapper {
@@ -407,6 +423,10 @@
   line-height: 24px;
   cursor: pointer;
 }
+.join__button:hover {
+  background-color: #ffc21d;
+  transition: all 0.2s ease;
+}
 
 .footer {
   padding: 56px 80px;
@@ -451,6 +471,10 @@
   line-height: 24px;
   cursor: pointer;
   margin-left: 24px;
+}
+.footer__button:hover {
+  background-color: #ffc21d;
+  transition: all 0.2s ease;
 }
 .footer__info {
   display: flex;
